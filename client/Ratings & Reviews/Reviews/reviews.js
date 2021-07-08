@@ -47,10 +47,10 @@ const  Reviews = (props) => {
                  starDimension="20px"
                  starSpacing="2px"
                  />   }
-                 <span className="text-right text-gray-500	text-sm"> {product.reviewer_name}, {moment(product.date).format("MMM Do, YYYY")}</span>
+                 <span className="text-right text-gray-500	text-sm pr-4"> {product.reviewer_name}, {moment(product.date).format("MMM Do, YYYY")}</span>
                 </section>
 
-                <section className="py-4 ">
+                <section className="py-4 pr-4">
                 <div>
                 { product.summary ? <p className="font-semibold text-gray-600 pb-4 text-lg">{product.summary}</p>: ''}
                 {/* {not finished for the button show more} */} 

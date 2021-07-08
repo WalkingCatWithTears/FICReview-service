@@ -95,7 +95,7 @@ function RatingsAndViews() {
       allBareValue={allBareValue} 
       setCountReview={setCountReview}/>
       </h1> : ''}
-        <Scrollbars>
+        <Scrollbars autoHide autoHideDuration={200} >
         {arrayOfproducts ? arrayOfproducts.map((product, index) => {
           if(allBareValue.startSort) {
             if (product.rating === bareValue.value) {
